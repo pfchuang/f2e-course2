@@ -911,12 +911,16 @@ ul.faq li>div h3 {
     }
 }
 
-.btn-contact-us {
+.btn-contact-us,
+.btn-contact-us:visited {
     color: #fff;
     background-color: #073763;
 }
 
-
+.btn-contact-us:hover {
+    color: #333;
+    background-color: gainsboro;
+}
 
 .bottom-right {
     float: right;
